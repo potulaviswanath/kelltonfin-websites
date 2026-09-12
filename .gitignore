@@ -1,0 +1,44 @@
+# ==========================================
+# Hindustan Agri Agencies / WordPress
+# ==========================================
+
+# Full backups
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+
+# Database dumps
+*.sql
+*.sql.gz
+
+# WordPress secrets
+wp-config.php
+.env
+.env.*
+!.env.example
+
+# Private keys / certificates
+*.key
+*.pem
+*.p12
+*.pfx
+
+# WordPress generated content
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# Backup plugin data
+wp-content/ai1wm-backups/
+wp-content/updraft/
+wp-content/backup*
+
+# Logs
+*.log
+
+# Temporary/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
